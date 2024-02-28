@@ -1,12 +1,20 @@
-# Women Safety App 
+# Suraksha - Women Safety App
 
-Suraksha is the prototype of an Android app which was developed with an intention of keeping women in the society safe and secure
-The main intention behind adding the features in this app was the fact that when so ever a woman is in trouble there is hardly any time/room for her to reach out to her phone and give a distress call to someone she trusts
-The flow of the application is as follows:-
-1.	Upon first time opening of the app the user gets an option to either signUp or signIn for the app
-2.	The signUp form consists of various details including your email account, your phone number and most importantly an EMERGENCY contact number
-3.	Once the user signs up, she lands on a discussion forum wherein other users of the app have posted the incidents that have happened with them at some point in time, with the location of the mishap and the data and time. The main intention of having this feature is that the user of the app can make herself aware when and what place to avoid. Also the user can post their own experiences if any.
-4.	Another feature in the app is that whensoever the user is in trouble the upon performing the “DOUBLE KARATE CHOP” action on the phone, will send an SMS to the emergency contact number stored in the database.
-5.	The most striking feature of the app is the integration of the app with Voice Assistants. The main fact kept in mind was that when so ever someone is held hostage, she isn’t in a position to reach out to her phone. As a result of immobility she can’t make any contact with someone she trusts. Integration with voice assistant enable the user to send out an SMS to the emergency contact number just by giving a predefined distress call. To demonstrate this feature we used Amazon Echo. Thus on giving the command “Alexa, tell suraksha I’m feeling unsafe” will trigger the above mentioned action.
-6.	The last feature stands the most striking one, considering the fact the IOT is and upcoming thing in the Indian market, with voice assistants on every other homes and also people starting to use Home Assistant.
-7.	The data of the user is stored on Google’s Firebase database.
+Suraksha is an Android app prototype designed to enhance the safety and security of women in society. It aims to provide quick and efficient assistance in times of distress.
+
+## Application Flow:
+1. **Sign Up/Sign In**: Upon first opening the app, users have the option to sign up or sign in. The sign-up form collects essential details including email, phone number, and most importantly, an emergency contact number.
+
+2. **Discussion Forum**: After signing up, users are directed to a discussion forum where other app users share their past experiences of incidents, including location, date, and time. This feature helps users stay informed about potentially unsafe areas and allows them to share their own experiences.
+
+3. **Emergency SMS**: A key feature of the app is the ability to send an emergency SMS to the designated contact number by performing a "DOUBLE KARATE CHOP" action on the phone or shaking the mobile device vigorously.
+
+4. **Integration with Voice Assistants**: Suraksha integrates with voice assistants to enable users to send distress signals without needing to physically interact with their phones. By issuing a predefined command to a voice assistant (e.g., "Alexa, tell Suraksha I'm feeling unsafe"), users can trigger the emergency SMS feature.
+
+5. **GPS-Based Functionality**: Suraksha operates based on GPS, enabling users to send their location along with the distress signal, ensuring prompt assistance regardless of data connectivity.
+
+6. **IoT Integration**: With the increasing popularity of IoT devices and voice assistants in Indian households, Suraksha aims to leverage this technology to enhance user safety.
+
+7. **Data Storage**: User data is securely stored on Google's Firebase database.
+
+This application is a proactive step towards empowering women and providing them with a reliable safety tool in challenging situations.
